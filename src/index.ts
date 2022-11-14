@@ -18,7 +18,7 @@ renderer.setSize(window.innerWidth, window.innerHeight);
 document.body.appendChild(renderer.domElement);
 
 //         // ライトの準備
-const directionalLight = new THREE.DirectionalLight("#ffffff", 1);
+const directionalLight = new THREE.DirectionalLight("#ffff33", 1);
 directionalLight.position.set(0, 10, 10);
 scene.add(directionalLight);
 //
