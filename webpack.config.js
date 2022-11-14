@@ -7,6 +7,6 @@ module.exports = {
 		filename: "main.js"
 	},
 	resolve: {
-		extensions: [".js"]
+		extensions: [".js",".ts"]
 	}
 }
